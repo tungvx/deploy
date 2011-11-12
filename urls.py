@@ -17,7 +17,7 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns('',
     # Example:
     # (r'^foo/', include('foo.urls')),
-    (r'^report_tool/', include('report_tool.urls')),
+    (r'^$', include('report_tool.urls')),
     # Uncomment this for admin:
 #     (r'^admin/', include('django.contrib.admin.urls')),
 )
